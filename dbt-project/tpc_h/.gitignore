@@ -1,13 +1,7 @@
-
 target/
 dbt_packages/
 logs/
-dbt_internal_packages/
 *.duckdb
 *.duckdb.wal
-*.duckdb
-*.duckdb.wal
-*.duckdb
-*.duckdb.wal
-*.duckdb
-*.duckdb.wal
+dbt-env/
+My Tableau Repository/

@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: tpc_h
+    schema: main
+    tables:
+      - name: region
+      - name: nation
+      - name: customer
+      - name: orders
+      - name: lineitem
+      - name: supplier
+      - name: part
+      - name: partsupp

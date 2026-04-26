@@ -2,3 +2,20 @@ New dbt project to analyze supplier and product performance using tpc tables gen
 -Which regions generate the most revenue, and at what cost and discount rate?
 -Which parts and brands sell the most volume globally?
 -How orders break down by customer geography and market segment. 
+
+## TPC-H Data Pipeline
+
+A multi-source dbt project modeling a global parts supply chain.
+
+### Pipeline Architecture
+staging (8 views) → intermediate (3 views) → marts (3 tables)
+
+### Marts
+- **mart_orders_summary** — order performance by customer geography
+- **mart_supplier_performance** — supplier revenue and cost by region  
+- **mart_product_analysis** — product sales by brand and part type
+
+### Visualizations
+![Orders by Region]
+
+![Supplier Performance]

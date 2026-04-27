@@ -15,6 +15,14 @@ staging (8 views) → intermediate (3 views) → marts (3 tables)
 - **mart_supplier_performance** — supplier revenue and cost by region  
 - **mart_product_analysis** — product sales by brand and part type
 
+
+## Pipeline Architecture
+staging (8 views) → intermediate (3 views) → marts (3 tables)
+
+## Lineage
+<img width="1846" height="863" alt="tpc_lineage" src="https://github.com/user-attachments/assets/d853c708-7e03-47b5-a131-41bbcf4552e5" />
+
+
 ### Visualizations
 ![Orders by Region]
 <img width="1441" height="796" alt="orders by region" src="https://github.com/user-attachments/assets/4f37e8cf-99f0-4edb-b785-e853f20756fe" />

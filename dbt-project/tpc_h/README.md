@@ -17,5 +17,9 @@ staging (8 views) → intermediate (3 views) → marts (3 tables)
 
 ### Visualizations
 ![Orders by Region]
+<img width="1441" height="796" alt="orders by region" src="https://github.com/user-attachments/assets/4f37e8cf-99f0-4edb-b785-e853f20756fe" />
+
 
 ![Supplier Performance]
+
+<img width="1426" height="809" alt="suppliers by revenue" src="https://github.com/user-attachments/assets/7212099e-f585-4fc4-8ad1-06cf4bafda29" />

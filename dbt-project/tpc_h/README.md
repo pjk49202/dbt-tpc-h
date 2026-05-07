@@ -3,7 +3,6 @@ New dbt project to analyze supplier and product performance using tpc tables gen
 -How orders break down by customer geography and market segment. 
 
 ## TPC-H Data Pipeline
-
 A multi-source dbt project modeling a global parts supply chain.
 
 ### Pipeline Architecture
@@ -14,9 +13,12 @@ staging (8 views) → intermediate (3 views) → marts (3 tables)
 - **mart_supplier_performance** — supplier revenue and cost by region  
 - **mart_product_analysis** — product sales by brand and part type
 
+## Infrastructure
 
-## Pipeline Architecture
-staging (8 views) → intermediate (3 views) → marts (3 tables)
+- **Local development:** DuckDB (fast, zero-config, runs offline)
+- **Cloud deployment:** Snowflake (TPCH_SF1 sample data, 1.5M+ rows)
+- **Same dbt models run in both environments** — profiles.yml controls the target
+
 
 ## Lineage
 <img width="1846" height="863" alt="tpc_lineage" src="https://github.com/user-attachments/assets/d853c708-7e03-47b5-a131-41bbcf4552e5" />

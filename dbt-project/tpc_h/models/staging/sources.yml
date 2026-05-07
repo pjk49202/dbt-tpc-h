@@ -2,7 +2,8 @@ version: 2
 
 sources:
   - name: tpc_h
-    schema: main
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
     tables:
       - name: region
       - name: nation

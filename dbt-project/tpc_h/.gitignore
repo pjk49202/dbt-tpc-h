@@ -4,4 +4,5 @@ logs/
 *.duckdb
 *.duckdb.wal
 dbt-env/
-My Tableau Repository/
+My Tableau Repository/exports/
+exports/
